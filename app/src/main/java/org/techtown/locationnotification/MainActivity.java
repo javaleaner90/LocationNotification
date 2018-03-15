@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements Serializable {
         public void handleMessage(Message msg) {
 
             String str = (String)msg.obj;
-            Log.e("서비스 에 온 문자 : ", str);
+            Log.e("서비스 에 온 문자 Good : ", str);
             suc(str);
 
         }
